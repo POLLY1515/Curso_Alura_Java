@@ -1,0 +1,28 @@
+<meta charset="UTF_8">
+<script>
+
+function pulaLinha(){
+    document.write("<br><hr>")
+}
+
+function mostra ( frase ){
+document.write("<big>" +frase + "</big>");
+pulaLinha();
+}
+var tenta = 0;
+
+while(tenta <= 3){
+var numeroSorteado =  Math.round(Math.random() * 10); 
+var numeroDigitado = parseInt(prompt("Insira seu numero"));
+
+if(numeroDigitado == numeroSorteado){
+    mostra("Parabéns, você acertou. O numero soretado foi: " + numeroSorteado);
+    break;
+}else{
+    mostra("Você errou.O numero sorteado foi: " + numeroSorteado + " Você digitou: " + numeroDigitado);
+}
+tenta++;
+}
+mostra("Fim do programa");
+
+</script>

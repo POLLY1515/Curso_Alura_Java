@@ -1,0 +1,29 @@
+<meta charset="UTF_8">
+<h1>Trabalhando com condições</h1>
+<script>
+
+function pulaLinha(){
+    document.write("<br><hr>")
+}
+
+function mostra (frase){
+document.write(frase);
+pulaLinha();
+}
+
+
+
+
+var vitorias = parseInt(prompt("Entre com o numero de vitórias:"));
+var empates = parseInt(prompt("Entre com o numero de empates:"));
+var pontos = vitorias * 3 + empates;
+
+mostra("Os pontos do seu time foi de: " + pontos);
+
+if(pontos >= 10){
+    mostra("bom");
+}else if (pontos < 10){
+    mostra("baixo");
+}
+
+</script>

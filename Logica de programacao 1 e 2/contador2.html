@@ -1,0 +1,24 @@
+<meta charset="UTF_8">
+<script>
+
+function pulaLinha(){
+    document.write("<br><br>");
+}
+
+function mostra(frase){
+    document.write("<big>"+ frase + "</big>");
+    pulaLinha();
+}
+
+var num = 30;
+while(num <= 40){
+    if(num == 33 || num == 37){
+        mostra(" ");
+    }else{
+        mostra(num);
+
+    }
+    num++;
+}
+mostra("FIm!!")
+</script>
