@@ -67,3 +67,12 @@ border-color: blueviolet;
     font-weight: bold;
     margin-top: 10px;
 }
+footer{
+    text-align: center;
+    background: url("imagens/bg.jpg");
+}
+.copy{
+    color: antiquewhite;
+    font-size: 13px;
+    margin-top: 20px;
+}
