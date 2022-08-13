@@ -83,15 +83,47 @@ main{
 form{
     margin: 40px 0;
 }
-form label{
+form label , form legend {
     font-size: 20px;
     display: block;
     margin: 0 0 10px;
-}
-form input{
+}.input-padrao{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 
+}
+textarea{
+    padding: 90px;
+}
+.checkbox{
+ margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: aquamarine;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background: forestgreen;
+    transform: rotate(70deg) scale(1.2);
+}
+table{
+    margin: 20 0 40px;
+}
+thead{
+    background: aquamarine;
+    font-weight: bold;
+}
+td , th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
